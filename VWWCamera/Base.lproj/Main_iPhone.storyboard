@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="waZ-k8-KiK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="VWWViewController" sceneMemberID="viewController">
@@ -15,11 +15,74 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="umX-Wf-Up2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ord-V3-9Dj">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Album" id="svN-8H-mJz">
+                                        <connections>
+                                            <action selector="albumButtonTouchUpInside:" destination="vXZ-lx-hvc" id="sIV-Fr-Lfx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Ksg-w9-FEd"/>
+                                    <barButtonItem systemItem="camera" id="0eI-wx-Peo">
+                                        <connections>
+                                            <action selector="cameraButtonTouchUpInside:" destination="vXZ-lx-hvc" id="nh1-PI-h40"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hqb-JC-dTP"/>
+                                    <barButtonItem title="Filter" id="BKK-WW-RqJ">
+                                        <connections>
+                                            <action selector="filterButtonTouchUpInside:" destination="vXZ-lx-hvc" id="ZLf-53-cm4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="E3W-9X-hbL"/>
+                                    <barButtonItem title="Save" id="7W6-3c-YtJ">
+                                        <connections>
+                                            <action selector="saveButtonTouchUpInside:" destination="vXZ-lx-hvc" id="Wie-ha-fm2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="a88-8T-FYB"/>
+                    <connections>
+                        <outlet property="albumButton" destination="svN-8H-mJz" id="zaX-s6-PR6"/>
+                        <outlet property="cameraButton" destination="0eI-wx-Peo" id="XXn-du-XJu"/>
+                        <outlet property="filterButton" destination="BKK-WW-RqJ" id="jxx-Ed-TMG"/>
+                        <outlet property="saveButton" destination="7W6-3c-YtJ" id="cZs-nx-xPh"/>
+                        <outlet property="selectedImageView" destination="umX-Wf-Up2" id="soU-mb-G0w"/>
+                        <outlet property="toolbar" destination="ord-V3-9Dj" id="TEj-dF-fgl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="939" y="185"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CfE-Eh-1YP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="waZ-k8-KiK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YXf-pF-zFi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="nkP-hR-pEA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kJM-uw-fDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="362" y="853"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

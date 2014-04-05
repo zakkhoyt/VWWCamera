@@ -22,6 +22,12 @@
 		CF59A2AA18F063B500C8B03B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A28918F063B500C8B03B /* UIKit.framework */; };
 		CF59A2B218F063B500C8B03B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF59A2B018F063B500C8B03B /* InfoPlist.strings */; };
 		CF59A2B418F063B500C8B03B /* VWWCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59A2B318F063B500C8B03B /* VWWCameraTests.m */; };
+		CF59A2C918F0656B00C8B03B /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2C418F0655C00C8B03B /* libGPUImage.a */; };
+		CF59A2CC18F0657E00C8B03B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2CA18F0657D00C8B03B /* CoreMedia.framework */; };
+		CF59A2CD18F0657E00C8B03B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2CB18F0657E00C8B03B /* CoreVideo.framework */; };
+		CF59A2CF18F0658700C8B03B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2CE18F0658700C8B03B /* OpenGLES.framework */; };
+		CF59A2D118F0658B00C8B03B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2D018F0658B00C8B03B /* AVFoundation.framework */; };
+		CF59A2D318F0659100C8B03B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2D218F0659100C8B03B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = CF59A28118F063B500C8B03B;
 			remoteInfo = VWWCamera;
+		};
+		CF59A2C318F0655C00C8B03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF59A2BD18F0655C00C8B03B /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		CF59A2C518F0655C00C8B03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF59A2BD18F0655C00C8B03B /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
+		};
+		CF59A2C718F0656600C8B03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF59A2BD18F0655C00C8B03B /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +82,12 @@
 		CF59A2AF18F063B500C8B03B /* VWWCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VWWCameraTests-Info.plist"; sourceTree = "<group>"; };
 		CF59A2B118F063B500C8B03B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF59A2B318F063B500C8B03B /* VWWCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWCameraTests.m; sourceTree = "<group>"; };
+		CF59A2BD18F0655C00C8B03B /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = VWWCamera/ThirdParty/GPUImage/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		CF59A2CA18F0657D00C8B03B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF59A2CB18F0657E00C8B03B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CF59A2CE18F0658700C8B03B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CF59A2D018F0658B00C8B03B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF59A2D218F0659100C8B03B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +95,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF59A2D318F0659100C8B03B /* QuartzCore.framework in Frameworks */,
+				CF59A2D118F0658B00C8B03B /* AVFoundation.framework in Frameworks */,
+				CF59A2CF18F0658700C8B03B /* OpenGLES.framework in Frameworks */,
+				CF59A2CC18F0657E00C8B03B /* CoreMedia.framework in Frameworks */,
+				CF59A2CD18F0657E00C8B03B /* CoreVideo.framework in Frameworks */,
+				CF59A2C918F0656B00C8B03B /* libGPUImage.a in Frameworks */,
 				CF59A28818F063B500C8B03B /* CoreGraphics.framework in Frameworks */,
 				CF59A28A18F063B500C8B03B /* UIKit.framework in Frameworks */,
 				CF59A28618F063B500C8B03B /* Foundation.framework in Frameworks */,
@@ -84,6 +123,7 @@
 		CF59A27918F063B500C8B03B = {
 			isa = PBXGroup;
 			children = (
+				CF59A2BD18F0655C00C8B03B /* GPUImage.xcodeproj */,
 				CF59A28B18F063B500C8B03B /* VWWCamera */,
 				CF59A2AD18F063B500C8B03B /* VWWCameraTests */,
 				CF59A28418F063B500C8B03B /* Frameworks */,
@@ -103,6 +143,11 @@
 		CF59A28418F063B500C8B03B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF59A2D218F0659100C8B03B /* QuartzCore.framework */,
+				CF59A2D018F0658B00C8B03B /* AVFoundation.framework */,
+				CF59A2CE18F0658700C8B03B /* OpenGLES.framework */,
+				CF59A2CA18F0657D00C8B03B /* CoreMedia.framework */,
+				CF59A2CB18F0657E00C8B03B /* CoreVideo.framework */,
 				CF59A28518F063B500C8B03B /* Foundation.framework */,
 				CF59A28718F063B500C8B03B /* CoreGraphics.framework */,
 				CF59A28918F063B500C8B03B /* UIKit.framework */,
@@ -155,6 +200,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CF59A2BE18F0655C00C8B03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF59A2C418F0655C00C8B03B /* libGPUImage.a */,
+				CF59A2C618F0655C00C8B03B /* GPUImageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +223,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CF59A2C818F0656600C8B03B /* PBXTargetDependency */,
 			);
 			name = VWWCamera;
 			productName = VWWCamera;
@@ -219,6 +274,12 @@
 			mainGroup = CF59A27918F063B500C8B03B;
 			productRefGroup = CF59A28318F063B500C8B03B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CF59A2BE18F0655C00C8B03B /* Products */;
+					ProjectRef = CF59A2BD18F0655C00C8B03B /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CF59A28118F063B500C8B03B /* VWWCamera */,
@@ -226,6 +287,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CF59A2C418F0655C00C8B03B /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = CF59A2C318F0655C00C8B03B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF59A2C618F0655C00C8B03B /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = CF59A2C518F0655C00C8B03B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CF59A28018F063B500C8B03B /* Resources */ = {
@@ -275,6 +353,11 @@
 			isa = PBXTargetDependency;
 			target = CF59A28118F063B500C8B03B /* VWWCamera */;
 			targetProxy = CF59A2AB18F063B500C8B03B /* PBXContainerItemProxy */;
+		};
+		CF59A2C818F0656600C8B03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = CF59A2C718F0656600C8B03B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,6 +476,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VWWCamera/VWWCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"VWWCamera/ThirdParty/GPUImage/Source/**",
+				);
 				INFOPLIST_FILE = "VWWCamera/VWWCamera-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -406,6 +494,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VWWCamera/VWWCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"VWWCamera/ThirdParty/GPUImage/Source/**",
+				);
 				INFOPLIST_FILE = "VWWCamera/VWWCamera-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
