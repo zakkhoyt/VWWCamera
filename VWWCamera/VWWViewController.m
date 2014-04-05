@@ -26,13 +26,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.navigationController setNavigationBarHidden:YES];
+    
+    //[[UIToolbar appearance] setBackgroundColor:[UIColor blackColor]];
+    //[[UIToolbar appearance] setTintColor:[UIColor blackColor]];
+    [[UIToolbar appearance] setBarTintColor:[UIColor blackColor]];
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(BOOL)prefersStatusBarHidden{
+    return  YES;
 }
 #pragma mark Private methods
 
