@@ -9,12 +9,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VWWCamera/VWWViewController.m"
-            timestampString = "418977158.844987"
+            filePath = "VWWCamera/VWWFilterViewController.m"
+            timestampString = "419024410.813763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "339"
-            endingLineNumber = "339"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
             landmarkName = "-markFaces:"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,12 +25,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VWWCamera/VWWViewController.m"
-            timestampString = "418977158.844987"
+            filePath = "VWWCamera/VWWFilterViewController.m"
+            timestampString = "419024410.813763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "318"
-            endingLineNumber = "318"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "-markFaces:"
             landmarkType = "5">
          </BreakpointContent>

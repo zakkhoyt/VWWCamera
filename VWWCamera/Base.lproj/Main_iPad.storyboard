@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Filter View Controller-->
         <scene sceneID="cqn-8t-Ww3">
             <objects>
-                <viewController id="5Wv-F6-yLi" customClass="VWWViewController" sceneMemberID="viewController">
+                <viewController id="5Wv-F6-yLi" customClass="VWWFilterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xt2-D8-zbd"/>
                         <viewControllerLayoutGuide type="bottom" id="hOH-IQ-CSh"/>
@@ -86,6 +86,7 @@
             <point key="canvasLocation" x="939" y="185"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VWWViewController : UIViewController
+@interface VWWFilterViewController : UIViewController
 
 @end

@@ -12,7 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
+    [[UIToolbar appearance] setBarTintColor:[UIColor blackColor]];
+
     return YES;
 }
 							

@@ -15,7 +15,7 @@
 		CF59A29618F063B500C8B03B /* VWWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59A29518F063B500C8B03B /* VWWAppDelegate.m */; };
 		CF59A29918F063B500C8B03B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59A29718F063B500C8B03B /* Main_iPhone.storyboard */; };
 		CF59A29C18F063B500C8B03B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF59A29A18F063B500C8B03B /* Main_iPad.storyboard */; };
-		CF59A29F18F063B500C8B03B /* VWWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59A29E18F063B500C8B03B /* VWWViewController.m */; };
+		CF59A29F18F063B500C8B03B /* VWWFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF59A29E18F063B500C8B03B /* VWWFilterViewController.m */; };
 		CF59A2A118F063B500C8B03B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF59A2A018F063B500C8B03B /* Images.xcassets */; };
 		CF59A2A818F063B500C8B03B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2A718F063B500C8B03B /* XCTest.framework */; };
 		CF59A2A918F063B500C8B03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A28518F063B500C8B03B /* Foundation.framework */; };
@@ -30,6 +30,8 @@
 		CF59A2D318F0659100C8B03B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59A2D218F0659100C8B03B /* QuartzCore.framework */; };
 		CF59A2D518F06A6100C8B03B /* CustomShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CF59A2D418F06A6100C8B03B /* CustomShader.fsh */; };
 		CF66EEA618F90878002F68C6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF66EEA518F90878002F68C6 /* CoreImage.framework */; };
+		CFA8A47B18F9CB9A00AF9B80 /* VWWDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA8A47A18F9CB9A00AF9B80 /* VWWDetectViewController.m */; };
+		CFA8A47E18F9CCF400AF9B80 /* VWWOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA8A47D18F9CCF400AF9B80 /* VWWOptionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +78,8 @@
 		CF59A29518F063B500C8B03B /* VWWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWAppDelegate.m; sourceTree = "<group>"; };
 		CF59A29818F063B500C8B03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CF59A29B18F063B500C8B03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CF59A29D18F063B500C8B03B /* VWWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWViewController.h; sourceTree = "<group>"; };
-		CF59A29E18F063B500C8B03B /* VWWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWViewController.m; sourceTree = "<group>"; };
+		CF59A29D18F063B500C8B03B /* VWWFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWFilterViewController.h; sourceTree = "<group>"; };
+		CF59A29E18F063B500C8B03B /* VWWFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWFilterViewController.m; sourceTree = "<group>"; };
 		CF59A2A018F063B500C8B03B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF59A2A618F063B500C8B03B /* VWWCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWWCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59A2A718F063B500C8B03B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -92,6 +94,10 @@
 		CF59A2D218F0659100C8B03B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CF59A2D418F06A6100C8B03B /* CustomShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CustomShader.fsh; sourceTree = "<group>"; };
 		CF66EEA518F90878002F68C6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CFA8A47918F9CB9A00AF9B80 /* VWWDetectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWDetectViewController.h; sourceTree = "<group>"; };
+		CFA8A47A18F9CB9A00AF9B80 /* VWWDetectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWDetectViewController.m; sourceTree = "<group>"; };
+		CFA8A47C18F9CCF400AF9B80 /* VWWOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWOptionsTableViewController.h; sourceTree = "<group>"; };
+		CFA8A47D18F9CCF400AF9B80 /* VWWOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWOptionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,12 +171,11 @@
 		CF59A28B18F063B500C8B03B /* VWWCamera */ = {
 			isa = PBXGroup;
 			children = (
+				CFA8A47F18F9CDD900AF9B80 /* Controllers */,
 				CF59A29418F063B500C8B03B /* VWWAppDelegate.h */,
 				CF59A29518F063B500C8B03B /* VWWAppDelegate.m */,
 				CF59A29718F063B500C8B03B /* Main_iPhone.storyboard */,
 				CF59A29A18F063B500C8B03B /* Main_iPad.storyboard */,
-				CF59A29D18F063B500C8B03B /* VWWViewController.h */,
-				CF59A29E18F063B500C8B03B /* VWWViewController.m */,
 				CF59A2A018F063B500C8B03B /* Images.xcassets */,
 				CF59A28C18F063B500C8B03B /* Supporting Files */,
 				CF59A2D418F06A6100C8B03B /* CustomShader.fsh */,
@@ -214,6 +219,19 @@
 				CF59A2C618F0655C00C8B03B /* GPUImageTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA8A47F18F9CDD900AF9B80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF59A29D18F063B500C8B03B /* VWWFilterViewController.h */,
+				CF59A29E18F063B500C8B03B /* VWWFilterViewController.m */,
+				CFA8A47918F9CB9A00AF9B80 /* VWWDetectViewController.h */,
+				CFA8A47A18F9CB9A00AF9B80 /* VWWDetectViewController.m */,
+				CFA8A47C18F9CCF400AF9B80 /* VWWOptionsTableViewController.h */,
+				CFA8A47D18F9CCF400AF9B80 /* VWWOptionsTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,7 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF59A29F18F063B500C8B03B /* VWWViewController.m in Sources */,
+				CFA8A47B18F9CB9A00AF9B80 /* VWWDetectViewController.m in Sources */,
+				CF59A29F18F063B500C8B03B /* VWWFilterViewController.m in Sources */,
+				CFA8A47E18F9CCF400AF9B80 /* VWWOptionsTableViewController.m in Sources */,
 				CF59A29218F063B500C8B03B /* main.m in Sources */,
 				CF59A29618F063B500C8B03B /* VWWAppDelegate.m in Sources */,
 			);
