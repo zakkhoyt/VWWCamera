@@ -291,10 +291,16 @@
     // create a face detector - since speed is not an issue we'll use a high accuracy
     // detector
     CIDetector* detector = [CIDetector detectorOfType:CIDetectorTypeFace
-                                              context:nil options:[NSDictionary dictionaryWithObject:CIDetectorAccuracyHigh forKey:CIDetectorAccuracy]];
+                                              context:nil
+                                              options:@{CIDetectorAccuracy : CIDetectorAccuracyHigh}];
+
+
+
     
+//    CIDetectorImageOrientation
     // create an array containing all the detected faces from the detector
-    NSArray* features = [detector featuresInImage:image];
+//    NSArray* features = [detector featuresInImage:image];
+    NSArray* features = [detector featuresInImage:image options:@{CIDetectorImageOrientation : @(1)}];
     
     // we'll iterate through every detected face. CIFaceFeature provides us
     // with the width for the entire face, and the coordinates of each eye
