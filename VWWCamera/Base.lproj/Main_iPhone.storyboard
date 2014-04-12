@@ -47,6 +47,12 @@
                                             <action selector="saveButtonTouchUpInside:" destination="vXZ-lx-hvc" id="Wie-ha-fm2"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="UUa-iq-7u2"/>
+                                    <barButtonItem title="Face" id="EBI-2P-Vz2">
+                                        <connections>
+                                            <action selector="faceButtonTouchUpInside:" destination="vXZ-lx-hvc" id="CvN-77-aRj"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>

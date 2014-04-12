@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>42C7D745-7745-4F35-842C-41491875ED27</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VWWCamera</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DAD78877-FD0F-41C8-9705-27B3A2A54D85</key>
+		<string>ssh://github.com/zakkhoyt/VWWCamera.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VWWCamera.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DAD78877-FD0F-41C8-9705-27B3A2A54D85</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zakkhoyt/VWWCamera.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DAD78877-FD0F-41C8-9705-27B3A2A54D85</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAD78877-FD0F-41C8-9705-27B3A2A54D85</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VWWCamera</string>
+		</dict>
+	</array>
+</dict>
+</plist>
